@@ -1,0 +1,474 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+ol,ul{
+    list-style-type: none;
+}
+
+a,a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Raleway", serif;
+}
+
+p{
+    font-family: "IBM Plex Mono", serif;
+    color: #9C9C9C;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+/* All Common CSS End */
+
+/* Navigation Part Start */
+.navbar-nav{
+    
+}
+
+.nav-link{
+    color: #9C9C9C;
+    font-family: "IBM Plex Mono", serif;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 1%;
+    font-weight: normal;
+    transition: .5s;
+    margin: 0 30px;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+
+
+.navSocial a i:hover{
+    color: #fff;
+}
+
+.navSocial a i{
+    color: #9C9C9C;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.navSocial{
+    gap: 20px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar-toggler i{
+    color: #fff;
+    font-size: 30px;
+}
+
+.navbar-toggler{
+    background: black;
+}
+
+.reviewItem:last-child{
+    /* margin-top: 20px; */
+}
+/* Navigation Part End */
+
+
+/* Banner Part Start */
+#bannerPart{
+    background: black;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.bannerLeft h1{
+    font-size: 44px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.bannerLeft p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    letter-spacing: 1%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-right: 145px;
+}
+
+.bannerLeft button{
+    background: #62BA1B;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 0%;
+    font-weight: bold;
+    color: #fff;
+    font-family: "IBM Plex Mono", serif;
+    padding: 21px 64px;
+    border-radius: 4px;
+    border: none;
+    transition: .5s;
+}
+
+
+.bannerLeft button:hover{
+    color: #62BA1B;
+    background: #fff;
+}
+
+.headerPhoto img{
+    border-radius: 50%;
+}
+
+.workText{
+    margin-top: 57px;
+}
+
+.workText p{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+
+.workItem{
+    height: 60px;
+    width: 160px;
+}
+/* Banner Part End */
+
+
+/* Study Part Start */
+#studyPart{
+    margin: 80px 0;
+}
+
+.studyHeader h1{
+    font-size: 34px;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0%;
+}
+
+.studyHeader p{
+    font-size: 14px;
+    line-height: 24px;
+    line-height: normal;
+    letter-spacing: 1%;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    padding: 0 50px;
+}
+
+
+.sItem1Text h4{
+    color: #FFA217;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 1%;
+    background: #ffa2172d;
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+.sItem1Text h1{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0%;
+    margin-top: 20px;
+}
+
+.sItem1Text p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    letter-spacing: 1%;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.sItem1Text button{
+    font-size: 14px;
+    line-height: normal;
+    font-weight: 800;
+    color: #fff;
+    font-family: "IBM Plex Mono", serif;
+    padding: 10px 24px;
+    border-radius: 4px;
+    background: #FFA217;
+    border: none;
+}
+
+.sitm{
+    margin: 80px 0;
+}
+
+.sItem1Img img{
+    border-radius: 10px;
+}
+/* Study Part End */
+
+
+/* Testimonial Part Start */
+#testimonialPart{
+    background: black;
+    padding: 80px 0;
+}
+
+.clentPhoto{
+    height: 50px;
+    width: 50px;
+}
+
+.testHeader h1{
+    font-size: 34px;
+    line-height: normal;
+    font-weight: 800;
+}
+
+.testHeader p{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    padding: 0 50px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.clientProfile{
+    gap: 15px;
+    align-items: center;
+}
+
+.clientProfile h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.clientProfile img{
+    border-radius: 50%;
+}
+
+.reviewItem{
+    padding: 30px;
+    /* border: 1px solid #fff; */
+    border-radius: 10px;
+
+
+    border: 1px solid transparent;
+    border-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(252, 252, 252));
+    border-image-slice: 1;
+}
+
+.reviewItem p{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+/* Testimonial Part End */
+
+
+/* Recent Part Start */
+#cerecntPart{
+    margin: 80px 0;
+}
+
+.recentHeader h1{
+    font-size: 34px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.recentHeader p{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-bottom: 60px;
+}
+
+.recentItem img{
+    border-radius: 10px;
+}
+
+.recentItem h1{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+.recentItem p{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 20px 0;
+}
+
+.recentItem button{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: #3F8E00;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+}
+/* Recent Part End */
+
+
+/* Support Part Start */
+#supportPart{
+    background: black;
+    padding: 80px 0;
+}
+
+.supportHeader h1{
+    font-size: 34px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.supportHeader p{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-top: 10px; 
+}
+
+.supportHeader{
+    margin-bottom: 40px;
+}
+
+.supportPart input,textarea{
+    font-size: 12px;
+    line-height: 21px;
+    padding: 5px;
+}
+
+.supportPart button{
+    background: #62BA1B;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    color: #fff;
+    background: #1B1B1B;
+    padding: 20px 0;
+}
+/* Support Part End */
+
+
+/* Name Part Start */
+.sticky_name{
+    background: #000;
+    animation: alamin 1s;
+    }
+    @keyframes alamin{
+    from{
+    top: -100px;
+    }
+    to{
+    top: 0;
+    }
+    }
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
